@@ -57,7 +57,7 @@ function create()
 
     // Create background images for scrolling.
     background = game.add.tileSprite(0,0,480,800,'background');
-    logo = game.add.sprite(240,300,'logo');
+    logo = game.add.sprite(240,400,'logo');
     logo.anchor.setTo(0.5,0.5);
     menuText = game.add.text(130,150,'', { font: '50px Fixedsys', fill: '#ff0000' });
 
